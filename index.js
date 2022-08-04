@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const shorten = require('./models/shorten');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://kevin:root@project.zo0wg.mongodb.net/short_list?retryWrites=true&w=majority', 
+mongoose.connect('your mongodb url', 
 {
     useNewUrlParser: true,
     useUnifiedTopology: true
